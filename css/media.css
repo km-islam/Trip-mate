@@ -1,0 +1,1290 @@
+
+    /* ==========Extra large devices==========  */
+    @media (min-width: 1200px) { 
+      .container {
+        max-width: 115.2rem;
+      }
+    } 
+
+    /* ==========Large devices========== */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+      .container {
+        max-width: 96rem;
+      }
+      .nav {
+    width: 80%;
+}
+.primary-btn {
+    margin-left: 2rem;
+}
+.logo {
+    width: 20%;
+}
+.form_input {
+    margin-right: 4rem;
+}
+.form {
+    padding: 3rem 3rem;
+}
+.package_item {
+    width: 48.5%;
+}
+.package_item > figure::before {
+    height: 100%;
+    right: -59%;
+    bottom: -32%;
+}
+#plan {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.user_activity_history > figure {
+    margin-right: 2rem;
+}
+.profilePicTwo {
+    left: 8%;
+}
+#banner_two {
+    height: 35rem;
+}
+#wall {
+    margin-top: 3.5rem;
+}
+.profileOne {
+    position: relative;
+}
+.profileTwo {
+    left: -7%;
+}
+.profileThree {
+    left: -13%;
+}
+.profileFive {
+    left: -20%;
+}
+.comment_section_bottom > button {
+    margin-left: 1rem;
+    width: 20%;
+}
+.travel_wall_item {
+    padding: 2rem;
+}
+.buddy_item {
+    width: 49%;
+    margin-bottom: 2rem;
+}
+.buddy_item_left {
+    width: 81%;
+}
+.footer_top {
+    padding: 2rem 0rem 2rem 0rem;
+}
+.footer_middle {
+    padding: 3.5rem 0;
+}
+.each_buddy {
+    padding: 1rem;
+}
+.numberOf_buddies > span, .numberOf_following > span {
+    font-size: 1rem;
+}
+.numberOf_buddies > p, .numberOf_following > p {
+    font-size: 1.8rem;
+}
+.each_buddy_content_buttom a {
+    width: 8.8rem;
+    margin-left: 0.5rem;
+    line-height: 2rem;
+}
+ .sorting {
+       flex-wrap: wrap;
+     }
+     .sorting {
+    flex-wrap: wrap;
+    }
+    .sort_item{
+      margin: 0.5rem;
+    }
+      .sort_item_input {
+      width: 45rem;
+      height: 4rem;
+    }
+    .touring_spot_gallery {
+        padding: 4rem 0 2rem;
+        flex-direction: column;
+    }
+    .touring_spot_left {
+    width: 100%;
+    }
+    .touring_spot_right {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  .touring_spot_right figure {
+    width: 48.5%;
+    height: 20rem;
+}
+  .mt{
+    margin-top: 1rem;
+  }
+  .collapse_title h3 {
+    font-size: 2.2rem;
+}
+
+    }
+
+    /* ==========Medium devices==========  */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+      .container {
+        max-width: 72rem;
+      }
+      .logo {
+    width: 20%;
+    }
+        .nav {
+        width: 80%;
+    }
+    .nav_list_item {
+        padding: 2rem 1rem;
+    }
+    .primary-btn {
+        padding: 1rem 2.5rem;
+        margin-left: 1rem;
+    }
+    .form {
+        padding: 1rem 1rem;
+    }
+    .form_input {
+        margin-right: 3rem;
+    }
+    #plan {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .package_item {
+        width: 48.5%;
+        margin-bottom: 2rem;
+    }
+    .package_item > figure::before {
+        right: -45%;
+    }
+    .user_activity_history > figure {
+        margin-right: 0.5rem;
+    }
+    .profilePicThree {
+        left: 0%;
+    }
+    #banner_two {
+        height: 29rem;
+    }
+    #wall {
+        margin-top: 2rem;
+    }
+    .travel_wall_item {
+        padding: 1rem;
+        width: 48.5%;
+        margin-bottom: 2rem;
+    }
+    .profileOne {
+        position: relative;
+    }
+    .profileTwo {
+        left: -7%;
+    }
+    .profileThree {
+        left: -14%;
+    }
+    .profileFive {
+        left: -23%;
+    }
+    .comment_section_bottom > form {
+        width: 80%;
+        padding: 1rem 1rem;
+    }
+    .comment_section_bottom > button {
+        margin-left: 1rem;
+        width: 15%;
+    }
+    .section_header {
+        margin-bottom: 2rem;
+    }
+    .buddy_item {
+        width: 49%;
+        margin-bottom: 2rem;
+    }
+    .buddy_item_left {
+        padding: 1rem;
+        width: 74%;
+    }
+    .buddy_item_content {
+        margin-left: 1rem;
+    }
+    .section_mr {
+        margin: 2rem 0rem;
+    }
+    .slider_img {
+        height: 30rem;
+    }
+    .package_item > figure::after {
+        bottom: 15%;
+    }
+    .footer_top {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    .footer_top_right > a {
+        padding-left: 2rem;
+    }
+    .footer_middle {
+        padding: 2rem 0;
+    }
+    .footer_middle_item:nth-child(3) {
+    text-align: center;
+    }
+    .footer_middle_item .details_address {
+        font-size: 1.6rem;
+    }.footer_middle_item .tel {
+        font-size: 1.4rem;
+    }
+    .footer_middle_item .email {
+        font-size: 1.4rem;
+        padding: 0.5rem 0rem 1rem 0rem;
+    }
+    .footer_middle_item > ul li a {
+        line-height: 3rem;
+    }
+    #suggest_buddy, #popular_buddy {
+    margin: 2rem 0;
+    }
+    #suggest_buddy.section_body {
+    flex-direction: column;
+    }
+    .each_buddy {
+        padding: 0.8rem;
+        width: 32%;
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+      }
+      .numberOf_following {
+        padding-left: 0.6rem;
+      }
+      .numberOf_buddies {
+        padding-right: 0.6rem;
+      }
+      .content_top_left h3 {
+        font-size: 1.4rem;
+      }
+      .each_buddy_content_buttom {
+        margin: 1.3rem 0 0.5rem 0;
+      }
+      .friends_info {
+        margin-top: 1.7rem;
+      }
+      .each_buddy .each_buddy_content_buttom a {
+        margin-top: 1rem;
+        width: 6.7rem;
+        line-height: 1.5rem;
+        margin-left: 0.5rem;
+      }
+      .numberOf_buddies > p, .numberOf_following > p {
+            font-size: 1.4rem;
+      }
+      .numberOf_buddies > span, .numberOf_following > span {
+        font-size: 1rem;
+      }
+      .sorting {
+       flex-wrap: wrap;
+     }
+     .sorting {
+    flex-wrap: wrap;
+    }
+    .sort_item{
+      margin: 0.5rem;
+    }
+      .sort_item_input {
+      width: 33.5rem;
+      height: 4rem;
+    }
+    .buddy_info_left h3 {
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .buddy_info_right a {
+    margin-right: 1rem;
+    padding: 1rem 1.5rem;
+  }
+  .bucket_item a {
+    margin-bottom: 1rem;
+  }
+  .buddy {
+    margin-bottom: 3rem;
+  }
+  .travel_wall_item > p {
+    font-size: 1.2rem;
+  }
+  .user_activity {
+    padding-top: 1.5rem;
+  }
+  .package_item_content {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+ .section_header_right_two {
+    padding: 1rem 1.5rem;
+  }
+  .section_header_right_two a {
+    font-size: 1.4rem;
+  }
+  /* plan details */
+  .touring_spot_gallery {
+        padding: 4rem 0 2rem;
+        flex-direction: column;
+    }
+    .touring_spot_left {
+    width: 100%;
+    }
+    .touring_spot_right {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  .touring_spot_right figure {
+    width: 48.5%;
+    height: 15rem;
+}
+   .mt{
+    margin-top: 1rem;
+  }
+  .available p {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+}
+.available p span{
+   font-size: 2.2rem;
+}
+.payment {
+    padding: 1rem 0 2rem;
+}
+.collapse_title h3 {
+    font-size: 2rem;
+}
+.collapse_content {
+    padding: 1.5rem;
+}
+.collapse_title {
+    line-height: 6rem;
+}
+.collapse {
+    margin-bottom: 5rem;
+}
+.package_info {
+    padding-bottom: 2rem;
+}
+.video_container {
+    flex-direction: column;
+    order: 2;
+}
+.video iframe{
+  width: 100%;
+}
+.video {
+    width: 100%;
+    margin-top: 1rem;
+}
+.video_ditails {
+    width: 100%;
+    margin-top: 2rem;
+}
+.video_ditails p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.video_uploader {
+    padding: 1rem 1rem;
+}
+.sign_in {
+    padding: 2rem 2rem;
+    width: 35rem;
+}
+      
+}
+
+    /* ==========Small devices========== */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+      .container {
+        max-width: 54rem;
+      }
+      .nav_trigger{
+          display: block;
+          background: var(--bg);
+          width: 100%;
+        }
+        #topbar{
+          display: none;
+        }
+          .banner {
+          height: 35rem;
+          margin-top: 6rem;
+        }
+        .form_input {
+        margin-right: 2rem;
+        height: 6rem;
+        padding: 1rem 1rem;
+       }
+        .form {
+        padding: 1rem 1rem;
+        }
+        .section_header {
+        margin-bottom: 1.5rem;
+        }
+        .section_header_left{
+      width: 70%;
+      }
+      .section_header_right{
+      width: 30%;
+      }
+      .section_header_left > h2 {
+        font-size: 2.2rem;
+        }
+        .section_header_left > p {
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+        }
+      .section_header_right .see_all {
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      .section_header_right .see_all {
+        font-weight: 400;
+        font-size: 1.5rem;
+      }
+      .footer_middle_item .details_address {
+        font-size: 1.5rem;
+      }
+        .plan_content .section_body{
+          flex-direction: column;
+        }
+        .package_item {
+        width: 100%;
+        margin-bottom: 2rem;
+        overflow: hidden;
+        }
+          .package_item > figure::before {
+        height: 58%;
+        left: 64%;
+        bottom: 1%;
+      }
+       .package_item > figure::after {
+        bottom: 15%;
+    }
+     #banner_two {
+        height: 20rem;
+        margin-bottom: 2rem;
+      }
+       .suggest_location {
+        width: 50%;
+        top: 68%;
+      }
+       .profilePicThree {
+        left: -25%;
+      }
+       #plan {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+      }
+      .package_item_content {
+        padding: 1.5rem;
+      }
+      .user_activity {
+        padding-top: 1.5rem;
+      }
+      #wall{
+        margin-top: 1rem;
+      }
+      #wall .section_body{
+        flex-direction: column;
+      }
+      .profileOne {
+        position: relative;
+      }
+      .profileThree {
+        left: -14%;
+      }
+      .profileTwo {
+        left: -6%;
+      }
+      .profileFive {
+        left: -25%; 
+      }
+      .travel_wall_item {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      #buddy .section_body{
+        flex-direction: column;
+      }
+      .buddy_item {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .buddy_item_left {
+        width: 83%;
+      }
+      .slider_img  {
+        height: 20rem;
+      }
+      .footer_top {
+        padding: 1rem 0rem 1rem 0rem;
+      }
+      .footer_top_right > a {
+        padding-left: 1rem;
+        font-size: 1.6rem;
+      }
+      .footer_top_left > h3 {
+        font-size: 2rem;
+      }
+      .footer_top_left > p {
+        font-size: 1.3rem;
+      }
+      .footer_middle_item:nth-child(3){
+        text-align: center;
+        padding: 0 3.5rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+      }
+      .footer_middle {
+        padding: 2rem 0;
+      }
+      .footer_middle_item > h4 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+      }
+      .footer_middle_item > ul li a {
+        line-height: 2.5rem;
+      }
+      .footer_middle_item .details_address {
+        font-size: 1.5rem;
+      }
+      .footer_middle_item .tel {
+        font-size: 1.3rem;
+        
+      }
+      .footer_middle_item .email {
+        font-size: 1.3rem;
+        padding: 1rem 0rem 1.5rem 0rem;
+      }
+      .footer_middle_item .map span {
+        font-size: 1.3rem;
+      }
+      .section_mr {
+    margin: 2rem 0rem;
+    }
+    #suggest_buddy, #popular_buddy {
+    margin: 2rem 0;
+    }
+    #suggest_buddy.section_body {
+    flex-direction: column;
+    }
+    .each_buddy {
+        padding: 0.8rem;
+        width: 48.5%;
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+      }
+      .numberOf_following {
+        padding-left: 0.6rem;
+      }
+      .numberOf_buddies {
+        padding-right: 0.6rem;
+      }
+      .content_top_left h3 {
+        font-size: 1.4rem;
+      }
+      .each_buddy_content_buttom {
+        margin: 1.3rem 0 0.5rem 0;
+      }
+      .friends_info {
+        margin-top: 1.7rem;
+      }
+      .each_buddy .each_buddy_content_buttom a {
+        margin-top: 1rem;
+        width: 6.7rem;
+        line-height: 1.5rem;
+        margin-left: 0.5rem;
+      }
+      .numberOf_buddies > p, .numberOf_following > p {
+            font-size: 1.4rem;
+      }
+      .numberOf_buddies > span, .numberOf_following > span {
+        font-size: 1rem;
+      }
+      .banner_buttom_mobile {
+        display: block;
+
+    }
+    .banner_buttom{
+      display: none;
+    }
+     .sort_item_input {
+    width: 100%;
+   }
+   .sort_item{
+     margin-bottom: 1rem;
+   }
+   #header{
+            display: none;
+          }
+          .nav_trigger{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background: var(--bg);
+            box-shadow: 0px 14px 21px -1px rgba(6, 25, 56, 0.08);
+          }
+          .nav_trigger .logo{
+            text-align: center;
+          }
+          .buddy{
+            margin-top: 6rem;
+          }
+           .buddy_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 1.5rem;
+        }
+        .buddy_info_left h3 {
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+      }
+      .buddy_info_left p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        
+      }
+      .buddy_info_left_icon i {
+        font-size: 1.5rem;
+    }
+      .buddy_info_left_icon i {
+        font-size: 1.5rem;
+    }
+    .friends .numberOf_buddies {
+        padding-right: 1rem;
+    }
+    .friends .numberOf_following {
+        padding-left: 1rem;
+    }
+    .friends .numberOf_buddies > p, .friends .numberOf_following > p {
+        font-size: 1.8rem;
+        
+    }
+    .buddy_info_right a {
+        margin-right: 2rem;
+        padding: 1rem 2rem;
+    }
+    .about_me, .hobbies, .bucket, .social_media {
+        padding: 0.5rem 0;
+      }
+      .bucket_item{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .hobbies_item span{
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .bucket_item a {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 15.7rem;
+    }
+    .social_media_icon{
+      padding-bottom: 1rem;
+    }
+    .buddy {
+    margin-bottom: 2rem;
+  }
+  .section_header_right_two {
+    padding: 1rem 1.5rem;
+  }
+  .section_header_right_two a {
+    font-size: 1.4rem;
+  }
+  /* plan details */
+   .touring_spot_gallery {
+        padding: 8rem 0 2rem;
+        flex-direction: column;
+    }
+    .touring_spot_left {
+    width: 100%;
+    }
+    .touring_spot_right {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  .touring_spot_right figure {
+    width: 48.5%;
+    height: 10rem;
+  }
+    .mt{
+    margin-top: 1rem;
+  }
+  .spot_name h5 {
+    font-size: 2rem;
+}
+.spot_name .package_price {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+}
+.available{
+  margin-top: 2rem;
+}
+.available p {
+    font-size: 2.2rem;
+    margin-left: 0;
+}
+.available p span{
+   font-size: 2.2rem;
+}
+.payment {
+    padding: 1rem 0 2rem;
+}
+.payment span {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+.collapse_title h3 {
+    font-size: 2.2rem;
+}
+.collapse_title {
+    line-height: 5rem;
+    padding: 0 1rem;
+}
+.collapse_content p {
+    line-height: 2.2rem;
+}
+.collapse_content {
+    padding: 1rem;
+}
+.collapse_content span {
+    padding: 1rem 0 1rem 0;
+
+}
+.collapse {
+    margin-bottom: 5rem;
+}
+ .travel_wall_item-2 {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+  .user_image_gallery {
+    margin-top: 1rem;
+}
+.package_info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.travel_wall_item-2 .package_info p, h5, span {
+    padding: 0.5rem 0;
+    line-height: 20px;
+}
+.video_container {
+    flex-direction: column;
+    order: 2;
+}
+.video iframe{
+  width: 100%;
+}
+.video {
+    width: 100%;
+    order: 2;
+    margin-top: 1rem;
+}
+.video_ditails {
+    width: 100%;
+}
+.video_ditails p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.video_uploader {
+    padding: 1rem 1rem;
+}
+  /* Login page start */
+.login_logo{
+  display: none;
+}
+.sign_in {
+    padding: 2rem 2rem;
+    width: 48rem;
+}
+
+    }
+
+    /* =========Extra small devices========= */
+    @media (max-width: 575.98px) { 
+      .container {
+        max-width: 54rem;
+      }
+        .nav_trigger{
+          display: block;
+        }
+        .site_content{
+        overflow-x: auto;
+      }
+        #topbar{
+          display: none;
+        }
+        .banner {
+        height: 25rem;
+        margin-top: 6rem;
+        }
+        .form {
+        padding: 1rem 1rem;
+        }
+        .banner_content {
+        padding: 10rem 0;
+        }
+        .secondary-btn {
+        padding: 2rem 2rem;
+        font-size: 1.4rem;
+        }
+        .form_input {
+        margin-right: 2rem;
+        height: 6rem;
+        padding: 0.5rem 1rem;
+        }
+      .section_header_left > h2 {
+        font-size: 2rem;
+        }
+        .section_header_left > p {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        }
+        .section_header {
+        margin-bottom: 1.5rem;
+        }
+        .plan_content .section_body{
+          flex-direction: column;
+        }
+        .package_item {
+        width: 100%;
+        margin-bottom: 2rem;
+        overflow: hidden;
+        }
+        .package_item > figure::before {
+        height: 58%;
+        left: 64%;
+        bottom: 1%;
+      }
+      .package_item > figure::after {
+        bottom: 15%;
+    }
+      #banner_two {
+        height: 20rem;
+        margin-bottom: 2rem;
+      }
+      .suggest_location {
+        width: 50%;
+        top: 68%;
+      }
+      .profilePicThree {
+        left: -25%;
+      }
+      #plan {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+      }
+      .package_item_content {
+        padding: 1.5rem;
+      }
+      .user_activity {
+        padding-top: 1.5rem;
+      }
+      #wall{
+        margin-top: 1rem;
+      }
+      #wall .section_body{
+        flex-direction: column;
+      }
+      .profileOne {
+        position: relative;
+      }
+      .profileThree {
+        left: -14%;
+      }
+      .profileTwo {
+        left: -6%;
+      }
+      .profileFive {
+        left: -25%; 
+      }
+      .travel_wall_item {
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+      }
+      #buddy .section_body{
+        flex-direction: column;
+      }
+      .buddy_item {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .buddy_item_left {
+        width: 83%;
+      }
+      .footer_top {
+        padding: 1rem 0rem 1rem 0rem;
+      }
+      .footer_top_right > a {
+        padding-left: 1rem;
+        font-size: 1.6rem;
+      }
+      .footer_top_left > h3 {
+        font-size: 2rem;
+      }
+      .footer_top_left > p {
+        font-size: 1.3rem;
+      }
+      .footer_middle_item:nth-child(3){
+        text-align: center;
+        padding: 0 3.5rem;
+        margin-top: 2rem;
+      }
+      .footer_middle {
+        padding: 2rem 0;
+      }
+      .footer_middle_item > h4 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+      }
+      .footer_middle_item > ul li a {
+        line-height: 2.5rem;
+      }
+      .each_buddy {
+        padding: 0.8rem;
+        width: 48.5%;
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+      }
+      .numberOf_following {
+        padding-left: 0.6rem;
+      }
+      .numberOf_buddies {
+        padding-right: 0.6rem;
+      }
+      .content_top_left h3 {
+        font-size: 1.4rem;
+      }
+      .each_buddy_content_buttom {
+        margin: 1.3rem 0 0.5rem 0;
+      }
+      .friends_info {
+        margin-top: 1.7rem;
+      }
+      .each_buddy .each_buddy_content_buttom a {
+        margin-top: 1rem;
+        width: 6.7rem;
+        line-height: 1.5rem;
+        margin-left: 0.5rem;
+      }
+      .numberOf_buddies > p, .numberOf_following > p {
+            font-size: 1.2rem;
+      }
+      .numberOf_buddies > span, .numberOf_following > span {
+        font-size: 0.8rem;
+      }
+      .slider_img  {
+        height: 20rem;
+      }
+      .section_header_left{
+      width: 70%;
+      }
+      .section_header_right{
+      width: 30%;
+      }
+      .section_header_right .see_all {
+        font-weight: 400;
+        font-size: 1.5rem;
+      }
+      .footer_middle_item .details_address {
+        font-size: 1.5rem;
+      }
+      .footer_middle_item .tel {
+        font-size: 1.3rem;
+        
+      }
+      .footer_middle_item .email {
+        font-size: 1.3rem;
+        padding: 1rem 0rem 1.5rem 0rem;
+      }
+      .footer_middle_item .map span {
+        font-size: 1.3rem;
+      }
+      .mt{
+    margin-top: 0.5rem;
+  }
+          /* buddy profile info */
+
+          #header{
+            display: none;
+          }
+          .nav_trigger{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background: var(--bg);
+            box-shadow: 0px 14px 21px -1px rgba(6, 25, 56, 0.08);
+          }
+          .nav_trigger .logo{
+            text-align: center;
+          }
+
+          .buddy{
+            margin-top: 6rem;
+          }
+        .buddy_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 1.5rem;
+        }
+        .buddy_info_left h3 {
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+      }
+      .buddy_info_left p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        
+      }
+      .buddy_info_left_icon i {
+        font-size: 1.5rem;
+    }
+    .friends .numberOf_buddies {
+        padding-right: 1rem;
+    }
+    .friends .numberOf_following {
+        padding-left: 1rem;
+    }
+    .friends .numberOf_buddies > p, .friends .numberOf_following > p {
+        font-size: 1.8rem;
+        
+    }
+    .buddy_info_right a {
+        margin-right: 2rem;
+        padding: 1rem 2rem;
+    }
+      .about_me, .hobbies, .bucket, .social_media {
+        padding: 0.5rem 0;
+      }
+      .bucket_item{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .hobbies_item span{
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .bucket_item a {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        width: 15.7rem;
+    }
+    .profilePicTwo {
+        left: 12%;
+    }
+    .comment_section_bottom > form {
+        width: 69%;
+        padding: 1rem 1rem;
+
+    }
+    .comment_section_bottom > button {
+        margin-left: 0.5rem;
+        width: 15%;
+        
+    }
+    .about_me p {
+        line-height: 2rem;
+    } 
+    .social_media_icon{
+      padding-bottom: 1rem;
+    }
+    .section_header_right_two {
+        padding: 1rem 1.2rem;
+    }
+    .section_header_right_two a {
+        font-size: 1rem;
+    }
+
+    /* plan details */
+    .touring_spot_gallery {
+        padding: 8rem 0 2rem;
+        flex-direction: column;
+    }
+    .touring_spot_left {
+    width: 100%;
+    }
+    .touring_spot_right {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.touring_spot_right figure {
+    width: 48.5%;
+    height: 10rem;
+}
+.spot_name h5 {
+    font-size: 1.8rem;
+}
+.spot_name .package_price {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+}
+.available{
+  margin-top: 3rem;
+}
+.available p {
+    font-size: 1.8rem;
+    margin-left: 0;
+}
+.available p span{
+  font-size: 1.8rem;
+}
+.payment {
+    padding: 1rem 0 2rem;
+}
+.payment span {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+.payment_getway_img{
+  display: flex;
+}
+.payment_getway_img img{
+  width: 70%;
+}
+.spot_name .payment h5, span {
+    font-size: 1.2rem;   
+}
+.spot_name .package_rate span {
+    font-size: 2.2rem;
+    padding-right: 2rem;
+}
+.spot_name .package_rate i {
+    padding: 0 0;
+    border-right:none;
+}
+.collapse_content {
+    padding: 1rem;
+}
+.collapse_content p {
+    line-height: 2.5rem;
+}
+.collapse_title {
+    line-height: 4rem;
+    padding: 0 1rem;
+}
+.collapse_content span {
+    padding: 1rem 0 1rem 0;
+
+}
+.collapse_item{
+  line-height: 4rem;
+    padding: 0;
+}
+.collapse_item h3 {
+    font-size: 2rem;
+}
+.collapse_item i {
+    font-size: 1.5rem;
+}
+.collapse {
+    margin-bottom: 3rem;
+}
+/* wall details part */
+
+  .travel_wall_item-2 {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+  .user_image_gallery {
+    margin-top: 1rem;
+}
+.package_info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.travel_wall_item-2 .package_info p, h5, span {
+    padding: 0.5rem 0;
+    line-height: 20px;
+}
+.video_container {
+    flex-direction: column;
+    order: 2;
+}
+.video iframe{
+  width: 100%;
+}
+.video {
+    width: 100%;
+    order: 2;
+    margin-top: 1rem;
+}
+.video_ditails {
+    width: 100%;
+}
+.video_ditails p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.video_uploader {
+    padding: 1rem 1rem;
+}
+.section_mr {
+    margin: 2rem 0rem;
+}
+.banner_buttom{
+  display: none;
+}
+.banner_buttom_mobile {
+    display: block;
+     background: var(--bg);
+     padding: 1.5rem 0;
+}
+.sort_item_input {
+    width: 100%;
+}
+#suggest_buddy, #popular_buddy {
+    margin: 2rem 0;
+}
+
+/* Login page start */
+.login_logo{
+  display: none;
+}
+.sign_in {
+    padding: 2rem 2rem;
+    width: 48rem;
+}
+
+}

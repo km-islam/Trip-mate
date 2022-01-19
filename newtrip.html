@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/newtrip.css" />
+  </head>
+  <body>
+    <main id="main">
+      <section id="container">
+        <div class="trip_form">
+          <h2>Plan a new trip</h2>
+          <form action="">
+            <div class="trip_input">
+              <input type="name" placeholder="Trip name" />
+            </div>
+            <div class="trip_input">
+              <input type="name" placeholder="Location name" />
+            </div>
+            <div class="uploading_image flex space_between align_items">
+              <div class="drop_here">
+                <i class="far fa-image"></i>
+                <span>Select or drop a photo</span>
+              </div>
+              <div class="uploaded_image flex space_between align_items">
+                <img src="./images/uploaded_img-1.png" alt="uploaded_img" />
+                <img src="./images/uploaded_img-1.png" alt="uploaded_img" />
+                <div><i class="far fa-image"></i></div>
+                <div><i class="far fa-image"></i></div>
+              </div>
+            </div>
+            <!-- Booking date  start -->
+            <div class="booking_date flex space_between align_items">
+              <div class="date flex space_between align_items">
+                <input type="text" placeholder="Tour Start Date" />
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <div class="date flex space_between align_items">
+                <input type="text" placeholder="Tour End Date" />
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+            </div>
+            <!-- Booking date  end -->
+            <!-- Radio button  start -->
+            <div class="radio_btn flex align_items">
+              <span>Gender Specification:</span>
+              <div>
+                <div class="each_btn">
+                <label class="radio">
+                  Man<input type="radio" name="gender" checked />
+                  <span></span>
+                </label>
+              </div>
+              <div class="each_btn">
+                <label class="radio">
+                  Girl<input type="radio" name="gender" />
+                  <span></span>
+                </label>
+              </div>
+              <div class="each_btn">
+                <label class="radio">
+                  Both<input type="radio" name="gender" />
+                  <span></span>
+                </label>
+              </div>
+            </div>
+            </div>
+            <!-- Radio button end -->
+            <div class="budget">
+              <input type="text" placeholder="Tour Budget" />
+              <input type="text" placeholder="Team Size" />
+            </div>
+            <div class="radio_btn flex align_items">
+              <span>Preferred Age:</span>
+              <div class="each_btn">
+                <label class="radio">
+                  All Travelers<input type="radio" name="age" checked />
+                  <span></span>
+                </label>
+              </div>
+              <div class="each_btn">
+                <label class="radio">
+                  10-20<input type="radio" name="age" />
+                  <span></span>
+                </label>
+              </div>
+              <div class="each_btn">
+                <label class="radio">
+                  30-40<input type="radio" name="age" />
+                  <span></span>
+                </label>
+              </div>
+              <div class="each_btn">
+                <label class="radio">
+                  50+<input type="radio" name="age" />
+                  <span></span>
+                </label>
+              </div>
+            </div>
+            <div class="textarea_content">
+              <textarea
+                rows="4"
+                cols="50"
+                placeholder="Type Package details...."
+              ></textarea>
+            </div>
+            <!-- Payment method part start -->
+            <div class="payment flex space_between align_items flex_wrap">
+              <div class="payment_item flex space_between align_items">
+                <input type="text" placeholder="Bkash Number" />
+                <img src="./images/bkash.png" alt="bkash" />
+              </div>
+              <div class="payment_item flex space_between align_items">
+                <input type="text" placeholder="Nagad Number" />
+                <img src="./images/nagad.png" alt="nagad" />
+              </div>
+              <div class="payment_item flex space_between align_items">
+                <input type="text" placeholder="Bank Name" />
+              </div>
+              <div class="payment_item flex space_between align_items">
+                <input type="text" placeholder="Account Number" />
+              </div>
+            </div>
+            <!-- Payment method part end -->
+            <div class="comment_area">
+              <input type="text" placeholder="What to see  Heading" />
+              <textarea
+                rows="4"
+                cols="50"
+                placeholder="Type Package details...."
+              ></textarea>
+            </div>
+            <div class="trip_input">
+              <input type="name" placeholder="Event Link" />
+            </div>
+            <div class="trip_input">
+              <input type="name" placeholder="Facebook Link" />
+            </div>
+            <div class="trip_input">
+              <input type="name" placeholder="Twitter Link" />
+            </div>
+            <div class="add_friends">
+              <i class="fas fa-user-friends icon_one"></i>
+              <span>Friends</span>
+              <i class="fas fa-caret-down icon_two"></i>
+            </div>
+            <div class="submit_btn">
+              <button>Start Planning</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

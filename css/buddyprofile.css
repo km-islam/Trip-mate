@@ -1,0 +1,286 @@
+/* =======Buddy profile page css part start====== */
+
+/* ===== Topbar part start ===== */
+#header {
+  position: static;
+  width: 100%;
+  box-shadow: 0rem 0.5rem 0.8rem -0.6rem rgba(0, 0, 0, 0.637);
+  z-index: 999;
+}
+.topbar_top {
+  padding: 2rem 0;
+  background-color: var(--bg);
+}
+.topbar_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user_data i {
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.user_data img {
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.topbar_bottom {
+  background: var(--primary);
+}
+.menu .nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* .menu .nav  li */
+.menu .nav_list_item {
+  padding: 2.5rem 4rem;
+}
+.menu .nav_list_item a {
+  color: #fff;
+}
+.user_data {
+  display: flex;
+  align-items: center;
+}
+/* ===== Topbar part  end ===== */
+
+.buddy {
+  background-color: var(--bg);
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.buddy_banner_main{
+ position: relative;
+}
+.buddy_banner{
+  width: 90%;
+ margin: 0 auto;
+ 
+}
+.slider_img_item{
+  width: 33.33%;
+
+}
+.slider_img_item img {
+  width: 100%;
+  height: 100%;
+}
+.slider_dots_btn ul{
+  bottom:7%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.slider_dots_btn ul li{
+ width: 2rem;
+ height: 0.5rem;
+ background: #fff;
+ margin: 0 1.5rem;
+ border-radius: 4rem;
+ -webkit-border-radius: 4rem;
+ -moz-border-radius: 4rem;
+ -ms-border-radius: 4rem;
+ -o-border-radius: 4rem;
+}
+/* profile details part start */
+.buddy_profile_details{
+  margin-top: 2rem;
+}
+.buddy_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #dedede;
+  padding-bottom: 3rem;
+}
+.buddy_info_left {
+  display: flex;
+  align-items: center;
+}
+.buddy_info_left h3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2.7rem;
+  color: var(--primary);
+  padding-bottom: 1rem;
+}
+.buddy_info_left p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #6b7280;
+}
+.buddy_info_left_icon {
+  margin-left: 1.5rem;
+  align-self: flex-start;
+}
+.buddy_info_left_icon i {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.buddy_info_right {
+  display: flex;
+  align-items: center;
+}
+.buddy_info_right a {
+  background: #3aaf85;
+  border-radius: 1.2rem;
+  margin-right: 3rem;
+  padding: 1rem 2.2rem;
+  color: var(--bg);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+}
+.buddy_info_right a i {
+  width: 3rem;
+  line-height: 3rem;
+  background: #ffffff48;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+.friends {
+  display: flex;
+  align-items: center;
+  margin-top: 2.7rem;
+}
+.friends .numberOf_buddies {
+  padding-right: 1.8rem;
+  border-right: 0.1rem solid #e5e7eb;
+}
+.friends .numberOf_following {
+  padding-left: 1.8rem;
+}
+.friends .numberOf_buddies > p,
+.friends .numberOf_following > p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #122841;
+}
+.friends .numberOf_buddies > span,
+.friends .numberOf_following > span {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #122841;
+}
+.about_me,
+.hobbies,
+.bucket,
+.social_media {
+  padding: 1.5rem 0;
+}
+.about_me h5,
+.hobbies h5,
+.bucket h5,
+.social_media h5 {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--primary);
+  padding-bottom: 1rem;
+}
+.about_me p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.4em;
+  color: #000000;
+  line-height: 2.4rem;
+}
+.hobbies_item span {
+  width: 10rem;
+  line-height: 4rem;
+  border-radius: 4rem;
+  font-family: Rubik;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: var(--primary);
+  background: #15345f33;
+  text-align: center;
+  margin-right: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.bucket_item a {
+  background: #3aaf842f;
+  border-radius: 4rem;
+  width: 13.7rem;
+  line-height: 4rem;
+  text-align: center;
+  display: inline-block;
+  font-family: Rubik;
+  color: #3aaf85;
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-right: 1.2rem;
+}
+.bucket_item a i {
+  font-size: 1.3rem;
+}
+.social_media_icon a i {
+  margin-right: 2rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+.fb {
+  background-color: #4267b2;
+}
+.twit {
+  background: #60a5fa;
+}
+.linked {
+  background: #005bb7;
+}
+.insta {
+  font-size: 2.5rem !important;
+  background: #f09433;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%      
+    );
+}
+/* =======Buddy profile page css part end====== */
